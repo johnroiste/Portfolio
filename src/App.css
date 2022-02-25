@@ -167,6 +167,7 @@ video{
 .textBox p{
   text-align: center;
   font-style: italic;
+  margin-left: -20px;
 }
 
 .profilephoto{
