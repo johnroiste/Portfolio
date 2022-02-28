@@ -4,7 +4,7 @@ import { Button} from 'reactstrap';
 const Header = () => {
     return (
           <div className="header-wrapper">
-            <video src='video-1.mp4' autoPlay loop muted/>
+            <video src='video-2.mp4' autoPlay loop muted/>
             <div className="btn-container">
               <a href="#contact"><Button className="btn" outline color="info" size="large" style={{marginRight: "10px", fontSize: "1.2em"}}>CONTACT</Button></a>
               <Button className="btn" color="info" size="large" style={{marginLeft: "10px", fontSize: "1.2em"}}>BLOG</Button>
