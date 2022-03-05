@@ -111,7 +111,7 @@ video{
 }
 
 .main-info h1{
-  color: var(--primary-blue);
+  color: silver;
   text-transform: uppercase;
 }
 
@@ -148,17 +148,34 @@ video{
 }
 
 .textBox{
-  height: 450px;
-  width: 450px;
-  padding: 20px;
-  border: 3px solid var(--primary-blue);
+  --s:400px;  /*Size of the circle */
+  --p:15px;  /* padding */
+
+  height: var(--s);
+  width:  var(--s);
+  border-radius: 50%;
   margin-top: 70px;
   margin-left: 20%;
   margin-right: none;
-  color: lightgray;
-  border-radius: 100%;
   float: left;
+  color: silver;
 }
+
+.textBox i,
+.textBox::before {
+  content: '';
+  float: left;
+  height:100%;
+  width: 50%;
+  shape-outside: radial-gradient(farthest-side at right, transparent calc(100% - var(--p)), #fff 0);
+}
+
+.textBox i {
+  float: right;
+  shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
+}
+
+
 
 .textBox h1 {
   text-align: center;
@@ -183,7 +200,10 @@ video{
   /* background-image: url("/.john.png"); */
 }
 
-.textBox::before {
+h1{
+  color: silver;
+}
+/* .textBox::before {
   content: "";
   width: 50%;
   height: 100%;
@@ -204,9 +224,9 @@ video{
   shape-margin: 7%;
   margin-left: -150px;
 
-}
+} */
 
-.textBox p::before {
+/* .textBox p::before {
   content: "";
   width: 50%;
   height: 100%;
@@ -225,10 +245,11 @@ video{
     50% 6%
   );
   shape-margin: 7%;
-}
+} */
 
 #container{
-  background-color: #f0f2f5;
+  background-color: #010025;
+  color: silver;
 }
 
 .container text-center{
@@ -304,6 +325,43 @@ video{
 }
 span{
   color: lightgray;
+}
+
+#contact{
+  margin-right: 10px;
+}
+
+#envelope{
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .textBox{
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    font-size: 3vw;
+    --s: 300px;
+  }
+
+  .textBox p{
+    font-size: 3vw;
+  }
+
+  .profilephoto{
+    height: 200px;
+    width: 200px;
+    background-size: 200px;
+    margin-left: 100px;
+  }
+
+  #blog-button{
+    margin-left: 50px important!;
+  }
+
+  .btn{
+    margin-left: 100px important!;
+  }
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
