@@ -28,7 +28,7 @@ const Projects = () => {
 
     return (
         <div id="container">
-        <a id="portfolio">
+        <div id="portfolio">
         <div id="container" className="container text-center">
           <br/>
           <h1>PORTFOLIO</h1>
@@ -60,7 +60,7 @@ const Projects = () => {
             </div> */}
           </div>
       </div>
-      </a>
+      </div>
       </div>
     )
 }

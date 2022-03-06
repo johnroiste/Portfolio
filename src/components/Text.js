@@ -3,7 +3,7 @@ import { Button} from 'reactstrap';
 
 const Text = () => {
     return (
-      <a id="about"><div className="text-wrapper">
+      <div id="about"><div className="text-wrapper">
           <div className="textBox">
               {/* <h1 >About me</h1> */}
               <i></i>
@@ -17,7 +17,7 @@ const Text = () => {
           </div>
           <div className="profilephoto">
           </div>
-      </div></a>
+      </div></div>
     )
 }
 
