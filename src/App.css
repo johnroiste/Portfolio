@@ -362,6 +362,10 @@ span{
   .btn{
     margin-left: 100px important!;
   }
+
+  .footer{
+    height: 100px;
+  }
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
