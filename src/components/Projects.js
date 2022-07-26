@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
 
     const handleClick = () => {
-      window.open("https://615f1338201e923cbe9b008f--wizardly-stonebraker-a53fdb.netlify.app/index.html")
+      window.open("https://romantic-wescoff-ecd119.netlify.app/")
     }
 
     const handleClick1 = () => {
@@ -28,15 +28,20 @@ const Projects = () => {
 
     return (
         <div id="container">
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars"></div>
         <div id="portfolio">
         <div id="container" className="container text-center">
           <br/>
+          <div id="title">
           <h1>PORTFOLIO</h1>
           <br/>
           <p><em>Wake up everyday with renewed freshness and a zeal to conquer the unknown.</em></p>
           <br/>
           <h3>Here are some projects I completed during my degree.</h3>
           <br/>
+          </div>
           
           <div className="row mt-5">
             <div className="col-sm-5 border-info " id="project1"  onClick={handleClick}>
