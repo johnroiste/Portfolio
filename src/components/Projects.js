@@ -29,8 +29,8 @@ const Projects = () => {
     return (
         <div id="container">
           <div id="stars"></div>
-          <div id="stars"></div>
-          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
         <div id="portfolio">
         <div id="container" className="container text-center">
           <br/>

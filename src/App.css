@@ -267,6 +267,13 @@ h1{
   border: 10px solid #dff2fb;
   float: left;
   cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+       border-radius: 4px;
+
+  -webkit-box-shadow: 0px 0px 4px #4195fc;
+  -moz-box-shadow: 0px 0px 4px #4195fc;
+   box-shadow: 0px 0px 10px #4195fc
 }
 
 #project1{
